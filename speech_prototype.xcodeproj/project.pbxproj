@@ -13,6 +13,18 @@
 		C02D1BBF1AB9AEBD0047831C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02D1BBE1AB9AEBD0047831C /* Images.xcassets */; };
 		C02D1BC21AB9AEBD0047831C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C02D1BC01AB9AEBD0047831C /* LaunchScreen.xib */; };
 		C02D1BCE1AB9AEBD0047831C /* speech_prototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02D1BCD1AB9AEBD0047831C /* speech_prototypeTests.swift */; };
+		C0466C821ABB66C700DD3507 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0466C811ABB66C700DD3507 /* SystemConfiguration.framework */; };
+		C0466C841ABB66CC00DD3507 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0466C831ABB66CC00DD3507 /* Security.framework */; };
+		C0466C861ABB66D500DD3507 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0466C851ABB66D500DD3507 /* CFNetwork.framework */; };
+		C0E2D1421AD47C5700E27525 /* ISpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2D1411AD47C5700E27525 /* ISpeech.swift */; };
+		C0E2D1441AD47C6200E27525 /* Speech.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2D1431AD47C6200E27525 /* Speech.swift */; };
+		C0F66A211AD1AC2100428F3C /* SpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F66A201AD1AC2100428F3C /* SpeechKit.framework */; };
+		C0F66A231AD1AFA600428F3C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F66A221AD1AFA600428F3C /* AVFoundation.framework */; };
+		C0F66A271AD1B14300428F3C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0466C7F1ABB66BF00DD3507 /* AudioToolbox.framework */; };
+		C0F66A291AD1B2B400428F3C /* speech_prototype-Bridging-Header.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F66A281AD1B2B400428F3C /* speech_prototype-Bridging-Header.m */; };
+		C0F66A2E1AD2BA2F00428F3C /* earcon_cancel.wav in Resources */ = {isa = PBXBuildFile; fileRef = C0F66A2B1AD2BA2F00428F3C /* earcon_cancel.wav */; };
+		C0F66A2F1AD2BA2F00428F3C /* earcon_done_listening.wav in Resources */ = {isa = PBXBuildFile; fileRef = C0F66A2C1AD2BA2F00428F3C /* earcon_done_listening.wav */; };
+		C0F66A301AD2BA2F00428F3C /* earcon_listening.wav in Resources */ = {isa = PBXBuildFile; fileRef = C0F66A2D1AD2BA2F00428F3C /* earcon_listening.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,20 @@
 		C02D1BC71AB9AEBD0047831C /* speech_prototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = speech_prototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02D1BCC1AB9AEBD0047831C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C02D1BCD1AB9AEBD0047831C /* speech_prototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speech_prototypeTests.swift; sourceTree = "<group>"; };
+		C0466C7F1ABB66BF00DD3507 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C0466C811ABB66C700DD3507 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C0466C831ABB66CC00DD3507 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C0466C851ABB66D500DD3507 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C0466C971ABB684000DD3507 /* speech_prototype-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "speech_prototype-Bridging-Header.h"; sourceTree = "<group>"; };
+		C0E2D1411AD47C5700E27525 /* ISpeech.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISpeech.swift; sourceTree = "<group>"; };
+		C0E2D1431AD47C6200E27525 /* Speech.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Speech.swift; sourceTree = "<group>"; };
+		C0F66A201AD1AC2100428F3C /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechKit.framework; path = speech_prototype/SpeechKit.framework; sourceTree = "<group>"; };
+		C0F66A221AD1AFA600428F3C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C0F66A251AD1B12F00428F3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C0F66A281AD1B2B400428F3C /* speech_prototype-Bridging-Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "speech_prototype-Bridging-Header.m"; sourceTree = "<group>"; };
+		C0F66A2B1AD2BA2F00428F3C /* earcon_cancel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = earcon_cancel.wav; sourceTree = "<group>"; };
+		C0F66A2C1AD2BA2F00428F3C /* earcon_done_listening.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = earcon_done_listening.wav; sourceTree = "<group>"; };
+		C0F66A2D1AD2BA2F00428F3C /* earcon_listening.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = earcon_listening.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +69,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0F66A271AD1B14300428F3C /* AudioToolbox.framework in Frameworks */,
+				C0F66A231AD1AFA600428F3C /* AVFoundation.framework in Frameworks */,
+				C0466C861ABB66D500DD3507 /* CFNetwork.framework in Frameworks */,
+				C0466C841ABB66CC00DD3507 /* Security.framework in Frameworks */,
+				C0466C821ABB66C700DD3507 /* SystemConfiguration.framework in Frameworks */,
+				C0F66A211AD1AC2100428F3C /* SpeechKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,12 +109,14 @@
 		C02D1BB41AB9AEBD0047831C /* speech_prototype */ = {
 			isa = PBXGroup;
 			children = (
+				C0E2D1401AD47C2D00E27525 /* Speech */,
 				C02D1BB71AB9AEBD0047831C /* AppDelegate.swift */,
 				C02D1BB91AB9AEBD0047831C /* ViewController.swift */,
 				C02D1BBB1AB9AEBD0047831C /* Main.storyboard */,
-				C02D1BBE1AB9AEBD0047831C /* Images.xcassets */,
 				C02D1BC01AB9AEBD0047831C /* LaunchScreen.xib */,
+				C02D1BBE1AB9AEBD0047831C /* Images.xcassets */,
 				C02D1BB51AB9AEBD0047831C /* Supporting Files */,
+				C0F66A2A1AD2B80A00428F3C /* Framework */,
 			);
 			path = speech_prototype;
 			sourceTree = "<group>";
@@ -90,6 +124,11 @@
 		C02D1BB51AB9AEBD0047831C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C0F66A2B1AD2BA2F00428F3C /* earcon_cancel.wav */,
+				C0F66A2C1AD2BA2F00428F3C /* earcon_done_listening.wav */,
+				C0F66A2D1AD2BA2F00428F3C /* earcon_listening.wav */,
+				C0466C971ABB684000DD3507 /* speech_prototype-Bridging-Header.h */,
+				C0F66A281AD1B2B400428F3C /* speech_prototype-Bridging-Header.m */,
 				C02D1BB61AB9AEBD0047831C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +149,30 @@
 				C02D1BCC1AB9AEBD0047831C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0E2D1401AD47C2D00E27525 /* Speech */ = {
+			isa = PBXGroup;
+			children = (
+				C0E2D1411AD47C5700E27525 /* ISpeech.swift */,
+				C0E2D1431AD47C6200E27525 /* Speech.swift */,
+			);
+			name = Speech;
+			sourceTree = "<group>";
+		};
+		C0F66A2A1AD2B80A00428F3C /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				C0F66A201AD1AC2100428F3C /* SpeechKit.framework */,
+				C0F66A251AD1B12F00428F3C /* Foundation.framework */,
+				C0F66A221AD1AFA600428F3C /* AVFoundation.framework */,
+				C0466C851ABB66D500DD3507 /* CFNetwork.framework */,
+				C0466C831ABB66CC00DD3507 /* Security.framework */,
+				C0466C811ABB66C700DD3507 /* SystemConfiguration.framework */,
+				C0466C7F1ABB66BF00DD3507 /* AudioToolbox.framework */,
+			);
+			name = Framework;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +257,9 @@
 			files = (
 				C02D1BBD1AB9AEBD0047831C /* Main.storyboard in Resources */,
 				C02D1BC21AB9AEBD0047831C /* LaunchScreen.xib in Resources */,
+				C0F66A2F1AD2BA2F00428F3C /* earcon_done_listening.wav in Resources */,
+				C0F66A2E1AD2BA2F00428F3C /* earcon_cancel.wav in Resources */,
+				C0F66A301AD2BA2F00428F3C /* earcon_listening.wav in Resources */,
 				C02D1BBF1AB9AEBD0047831C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0F66A291AD1B2B400428F3C /* speech_prototype-Bridging-Header.m in Sources */,
+				C0E2D1421AD47C5700E27525 /* ISpeech.swift in Sources */,
 				C02D1BBA1AB9AEBD0047831C /* ViewController.swift in Sources */,
 				C02D1BB81AB9AEBD0047831C /* AppDelegate.swift in Sources */,
+				C0E2D1441AD47C6200E27525 /* Speech.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +405,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/speech_prototype",
+				);
 				INFOPLIST_FILE = speech_prototype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/speech_prototype/SDK",
+					"$(PROJECT_DIR)/speech_prototype/SDK/iSpeech",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "speech_prototype/speech_prototype-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +428,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/speech_prototype",
+				);
 				INFOPLIST_FILE = speech_prototype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/speech_prototype/SDK",
+					"$(PROJECT_DIR)/speech_prototype/SDK/iSpeech",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "speech_prototype/speech_prototype-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +499,7 @@
 				C02D1BD31AB9AEBD0047831C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C02D1BD41AB9AEBD0047831C /* Build configuration list for PBXNativeTarget "speech_prototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +508,7 @@
 				C02D1BD61AB9AEBD0047831C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
