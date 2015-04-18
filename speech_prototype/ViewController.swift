@@ -22,6 +22,8 @@ class ViewController: UIViewController, SKRecognizerDelegate {
         SpeechKit.setEarcon(SKEarcon.earconWithName("earcon_done_listening.wav") as! SKEarcon, forType:UInt(SKStopRecordingEarconType))
         SpeechKit.setEarcon(SKEarcon.earconWithName("earcon_cancel.wav") as! SKEarcon, forType:UInt(SKCancelRecordingEarconType))
         //coucou toi
+
+        //I create even more stuff hihi
     }
 
     @IBAction func listen(sender: UIButton) {
